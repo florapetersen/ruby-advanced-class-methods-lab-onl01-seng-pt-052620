@@ -49,6 +49,6 @@ class Song
     song.name = name
     return song
   end
-    
+
     #return song with name and artist name from inside of filename
 end
