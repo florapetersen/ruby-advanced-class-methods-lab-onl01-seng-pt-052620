@@ -20,6 +20,3 @@ class Song
     @@all << name
   end
 end
-
-
-end
