@@ -20,4 +20,6 @@ class Song
     @@all << song
     song
   end
+
+  def new_by_name
 end
