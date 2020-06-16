@@ -12,6 +12,6 @@ class Song
 
   def Song.create(name)
     @name = name
-    @Song.name
+    return @Song.name
   end
 end
