@@ -39,7 +39,6 @@ class Song
   end
 
   def self.alphabetical
-    alphabetical_array = self.all.sort
-    return alphabetical_array
+    self.all.sort
   end
 end
