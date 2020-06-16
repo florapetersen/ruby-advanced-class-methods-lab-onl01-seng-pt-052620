@@ -20,7 +20,7 @@ class Song
     #shovels song onto @@all
     #returns song
     song = Song.new
-    @@all << song
+    song.save
     song
   end
 
