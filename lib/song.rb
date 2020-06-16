@@ -16,6 +16,9 @@ class Song
 #This method should return the song instance that was initialized and saved.
 
   def self.create
+    #creates new instance of Song class and sets it to song
+    #shovels song onto @@all
+    #returns song
     song = Song.new
     @@all << song
     song
@@ -23,9 +26,13 @@ class Song
 
   def self.new_by_name(name)
     #takes in song name as argument
-    #
+    #self refers to Song class
+    #self.new is new instance of Song class
+    #sets new instance of Song class to song
     song = self.new
+    #gives the song instance a name, sets to name argument
     song.name = name
+    #returns instance of Song
     song
   end
 end
