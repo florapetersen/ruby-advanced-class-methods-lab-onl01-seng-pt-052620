@@ -19,5 +19,6 @@ class Song
     binding.pry
     song = Song.new
     @@all << song
+    song
   end
 end
