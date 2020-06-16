@@ -15,8 +15,7 @@ class Song
 #it to the @@all class variable either literally or through the class method Song.all.
 #This method should return the song instance that was initialized and saved.
 
-  def self.create(name)
-    binding.pry 
+  def self.create
     song = Song.new
     song.name = name
     @name = name
