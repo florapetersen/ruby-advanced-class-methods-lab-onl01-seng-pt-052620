@@ -19,7 +19,7 @@ class Song
     #creates new instance of Song class and sets it to song
     #shovels song onto @@all
     #returns song
-    song = self.new
+    song = Song.new
     @@all << song
     song
   end
@@ -29,7 +29,7 @@ class Song
     #self refers to Song class
     #self.new is new instance of Song class
     #sets new instance of Song class to song
-    song = self.new
+    song = Song.new
     #gives the song instance a name, sets to name argument
     song.name = name
     #returns instance of Song
