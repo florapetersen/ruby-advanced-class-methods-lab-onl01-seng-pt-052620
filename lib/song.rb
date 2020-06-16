@@ -8,7 +8,7 @@ class Song
   end
 
   def save
-    self.class.all << self
+    self.class.all << self unless self.class.all.include?(self)
     self
   end
 
