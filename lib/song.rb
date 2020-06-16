@@ -12,10 +12,6 @@ class Song
     self
   end
 
-#Build a class constructor Song.create that initializes a song and saves
-#it to the @@all class variable either literally or through the class method Song.all.
-#This method should return the song instance that was initialized and saved.
-
   def self.create
     #you don't need to set the song instance to a variable here
     #unless you want to do something with that variable right away
@@ -31,4 +27,6 @@ class Song
   def self.create_by_name(name)
     song = Song.new_by_name(name).save
   end
+
+  def self.find_by_name
 end
