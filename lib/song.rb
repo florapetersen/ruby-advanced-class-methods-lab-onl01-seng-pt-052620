@@ -10,13 +10,13 @@ class Song
     self.class.all << self
   end
 
-  def Song.create(name)
-    @name = name
+  def Song.create
     Song.all
     name
   end
 
-  def Song.all
-    @@all << name
+  def Song.all(name)
+    @name = name
+    @@all << @name
   end
 end
