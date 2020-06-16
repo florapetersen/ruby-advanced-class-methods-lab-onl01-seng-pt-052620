@@ -21,7 +21,7 @@ class Song
     #shovels song onto @@all
     #returns song
     Song.new
-    song.save
+    Song.save
   end
 
   def self.new_by_name(name)
