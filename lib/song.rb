@@ -20,7 +20,7 @@ class Song
     #creates new instance of Song class and sets it to song
     #shovels song onto @@all
     #returns song
-    song = Song.new
+    Song.new
     song.save
   end
 
