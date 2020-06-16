@@ -12,14 +12,14 @@ class Song
 
   def Song.create(name)
     @name = name
-    Song.all 
+    Song.all
     name
   end
 
-  def Song.all 
+  def Song.all
     @@all << name
   end
 end
-    
+
 
 end
