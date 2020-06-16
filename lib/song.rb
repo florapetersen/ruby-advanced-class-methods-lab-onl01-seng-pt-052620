@@ -11,7 +11,14 @@ class Song
     self.class.all << self
   end
 
-  def Song.create(name)
+#Build a class constructor Song.create that initializes a song and saves
+#it to the @@all class variable either literally or through the class method Song.all.
+#This method should return the song instance that was initialized and saved.
+
+  def self.create(name)
+    song = Song.new
+    song.name = name
+    binding.pry
     @name = name
     @@all << @name
   end
