@@ -23,19 +23,12 @@ class Song
   end
 
   def self.new_by_name(name)
-    #song.create creates new instance and saves it
-    #if we just did song.new that would create the new instance,
-    #but wouldn't save it
     song = Song.new
-    #gives the song instance a name, sets to name argument
     song.name = name
-    #returns instance of Song
     song
   end
 
   def self.create_by_name(name)
-    song = Song.create
-    song.name = name
-    song
+    song = Song.new_by_name(name).save
   end
 end
