@@ -17,9 +17,8 @@ class Song
 #This method should return the song instance that was initialized and saved.
 
   def self.create
-    #creates new instance of Song class and sets it to song
-    #shovels song onto @@all
-    #returns song
+    #you don't need to set the song instance to a variable here
+    #unless you want to do something with that variable right away
     Song.new.save
   end
 
