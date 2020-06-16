@@ -27,7 +27,7 @@ class Song
     #self refers to Song class
     #self.new is new instance of Song class
     #sets new instance of Song class to song
-    song = Song.new
+    song = Song.create
     #gives the song instance a name, sets to name argument
     song.name = name
     #returns instance of Song
