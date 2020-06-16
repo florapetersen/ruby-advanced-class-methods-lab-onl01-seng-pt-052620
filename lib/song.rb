@@ -22,6 +22,8 @@ class Song
   end
 
   def self.new_by_name(name)
+    #takes in song name as argument
+    #
     song = self.new
     song.name = name
     song
