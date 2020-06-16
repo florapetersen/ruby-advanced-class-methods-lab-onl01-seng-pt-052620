@@ -23,11 +23,10 @@ class Song
   end
 
   def self.new_by_name(name)
-    #takes in song name as argument
-    #self refers to Song class
-    #self.new is new instance of Song class
-    #sets new instance of Song class to song
-    song = Song.create
+    #song.create creates new instance and saves it
+    #if we just did song.new that would create the new instance,
+    #but wouldn't save it
+    song = Song.new
     #gives the song instance a name, sets to name argument
     song.name = name
     #returns instance of Song
