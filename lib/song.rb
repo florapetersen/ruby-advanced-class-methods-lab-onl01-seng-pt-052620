@@ -18,8 +18,6 @@ class Song
   def self.create
     binding.pry
     song = Song.new
-    song.name = name
-    @name = name
-    @@all << @name
+    @@all << song
   end
 end
