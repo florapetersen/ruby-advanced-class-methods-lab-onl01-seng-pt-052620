@@ -9,6 +9,7 @@ class Song
 
   def save
     self.class.all << self
+    self
   end
 
 #Build a class constructor Song.create that initializes a song and saves
