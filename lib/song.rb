@@ -13,4 +13,5 @@ class Song
   def Song.create(name)
     @name = name
     @Song.name
+  end
 end
