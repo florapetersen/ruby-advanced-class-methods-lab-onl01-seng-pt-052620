@@ -9,7 +9,6 @@ class Song
 
   def save
     self.class.all << self
-    binding.pry
   end
 
   def Song.create(name)
