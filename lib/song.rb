@@ -16,7 +16,6 @@ class Song
 #This method should return the song instance that was initialized and saved.
 
   def self.create
-    binding.pry
     song = Song.new
     @@all << song
     song
