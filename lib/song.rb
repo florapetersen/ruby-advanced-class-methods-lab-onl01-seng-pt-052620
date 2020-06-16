@@ -12,7 +12,7 @@ class Song
   end
 
   def Song.create(name)
-    binding.pry 
+    binding.pry
     @name = name
     @@all << @name
   end
