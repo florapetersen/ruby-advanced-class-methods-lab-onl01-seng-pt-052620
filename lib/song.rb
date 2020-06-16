@@ -29,7 +29,7 @@ class Song
     #sets new instance of Song class to song
     song = Song.new
     #gives the song instance a name, sets to name argument
-    name = song.name
+    song.name = name
     #returns instance of Song
     song
   end
