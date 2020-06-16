@@ -20,8 +20,7 @@ class Song
     #creates new instance of Song class and sets it to song
     #shovels song onto @@all
     #returns song
-    Song.new
-    Song.save
+    Song.new.save
   end
 
   def self.new_by_name(name)
