@@ -22,7 +22,6 @@ class Song
     #returns song
     song = Song.new
     song.save
-    song
   end
 
   def self.new_by_name(name)
